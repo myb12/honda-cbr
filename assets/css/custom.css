@@ -4,16 +4,28 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* reusable css */
+.section-title{
+    color: #0A0826;
+ }
+ 
+ .section-title span{
+     color: #E76F51;;
+ }
 
 /* banner section css */
-.banner-section{
-    width: 100%;
+.banner-section,.modal-content,.list-group-item{
     background-color:  #264653;
 }
 .banner-section p:first-of-type{
     font-size: 14px;
 }
-.banner-section p{
+.banner-section p,.list-group-item{
     font-weight: 300;
 }
 .banner-section h1{
@@ -24,4 +36,60 @@ body{
     background-color: #E76F51;
     color: white;
     padding: 10px 46px;
+}
+
+/* featured section css */
+.section-subtitle{
+    font-size: 14px;
+    color: #E76F51;
+}
+.section-subtitle:before{
+    content: '';
+    bottom: -0.2rem;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #E76F51;
+}
+
+.featured-bikes img{
+    width: 288px;
+    height: 243px;
+    margin-top: 80px;
+}
+
+.featured-bikes img:nth-child(odd){
+    filter: grayscale(100);
+}
+
+/* clients section css */
+.client-section{
+    margin: 80px 0;
+}
+
+.client-section .card{
+    padding: 40px 35px;
+    border-radius: 5px;
+}
+
+.client-section img{
+    height: 149px;
+    width: 149px;
+}
+
+.client-message{
+    color: #6C6C6C;
+}
+
+.client-name{
+    font-size: 14px;
+    font-weight: 600;
+    color:#23A6F0;
+    margin-top: 15px;
+}
+
+.client-designation{
+    font-size: 14px;
+    font-weight: 600;
+    color:#252B42;
 }
