@@ -1,0 +1,27 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* base css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner section css */
+.banner-section{
+    width: 100%;
+    background-color:  #264653;
+}
+.banner-section p:first-of-type{
+    font-size: 14px;
+}
+.banner-section p{
+    font-weight: 300;
+}
+.banner-section h1{
+    font-weight: 600;
+}
+
+.btn-purchase{
+    background-color: #E76F51;
+    color: white;
+    padding: 10px 46px;
+}
