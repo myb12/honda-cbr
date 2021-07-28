@@ -14,7 +14,7 @@ h1{
     color: #0A0826;
  }
  
- .section-title span{
+ .section-title span,.fa-star{
      color: #E76F51;;
  }
 
@@ -63,7 +63,7 @@ h1{
 }
 
 /* clients section css */
-.client-section{
+.client-section,.question-section{
     margin: 80px 0;
 }
 
@@ -92,4 +92,37 @@ h1{
     font-size: 14px;
     font-weight: 600;
     color:#252B42;
+}
+
+/* Question section css */
+.accordion-item p{
+    color: #7E848C;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23425F6A'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+
+/* media query for small devices */
+@media only screen and (max-width:688px) {
+    h1{
+        font-size: 30px;
+    }
+
+    .question-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
