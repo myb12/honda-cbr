@@ -15,27 +15,28 @@
 
 <body>
     <header>
-        <!-- banner section start -->
+        <!-- banner section starts -->
         <div class="banner-section py-5">
             <div class="container text-white">
-                <div class="row">
-                    <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="row justify-content-lg-between">
+                    <div class="col-12 col-lg-5 d-flex align-items-center">
                         <div>
                             <p>Computer-controlled digital transistorized with electronic advance</p>
                             <h1 class="mb-3 mt-2">Honda CBR 300R</h1>
-                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                            <button type="button" class="btn btn-purchase" data-bs-toggle="modal"
+                            <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021
+                                Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a
+                                total blast to ride around town and on twisty back roads.</p>
+                            <button type="button" class="btn my-btn" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Purchase</button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 mt-5 mt-md-0">
-                        <img class="img-fluid" src="assets/images/header-bike.png" alt="">
+                    <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                        <img class="w-100" src="assets/images/header-bike.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- banner section start -->
+        <!-- banner section ends -->
 
         <!-- Modal starts-->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -66,7 +67,8 @@
                     </div>
                     <div class="modal-footer">
                         <a target="_blank" href="https://www.bikedekho.com/honda/cbr300r/specificati>More<ons"><button
-                                type="button" class="btn btn-purchase" /button></a>
+                                type="button" class="btn my-btn">More&nbsp;<i
+                                    class="far fa-arrow-alt-circle-right"></i></button></a>
                     </div>
                 </div>
             </div>
@@ -77,14 +79,15 @@
     <main>
 
         <!-- featured bike section starts -->
-        <section class="featured-section mt-5">
+        <section class="featured-section">
             <div class="d-flex justify-content-center">
                 <div class="position-relative">
                     <h1 class="mb-0">Featured Bikes 2021</h1>
-                    <span class="section-subtitle d-flex justify-content-center">Best bike collection</span>
+                    <span class="section-subtitle d-flex justify-content-center color-burnt-sienna">Best bike
+                        collection</span>
                 </div>
             </div>
-            <div class="container ">
+            <div class="container">
 
                 <div class="featured-bikes d-flex flex-column flex-lg-row justify-content-around align-items-center">
                     <img class="img-fluid" src="assets/images/feature-bike.jpg" alt="">
@@ -98,39 +101,36 @@
         <!-- client section starts -->
         <section class="client-section">
             <div class="d-flex justify-content-center">
-                <h1 class="section-title">Happy <span>Clients says</span></h1>
+                <h1 class="section-title" id="client-title">Happy <span class="color-burnt-sienna">Clients says</span>
+                </h1>
             </div>
-            <div class="container ">
+            <div class="container mt-4">
 
                 <!-- clients -->
-                <div class="row row-cols-1 row-cols-lg-3 g-4 mt-5">
+                <div class="row row-cols-1 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100 d-flex flex-column align-items-center">
                             <img src="assets/images/user-1.png" class="card-img-top mb-5" alt="Picture of a client">
-                            <p class="client-message">Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</p>
-                            <span><i class="fas fa-star me-2"></i><i class="fas fa-star me-2"></i><i
+                            <p class="client-message">I was in the Bike today and I had a great experience, both
+                                with the mechanic and the salesmen who helped me</p>
+                            <span class="color-burnt-sienna"><i class="fas fa-star me-2"></i><i
                                     class="fas fa-star me-2"></i><i class="fas fa-star me-2"></i><i
-                                    class="far fa-star"></i></span>
+                                    class="fas fa-star me-2"></i><i class="far fa-star"></i></span>
                             <p class="client-name">Regina Miles</p>
-                            <p class="client-designation">Banker</p>
+                            <p class="client-designation mb-0">Banker</p>
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="card h-100 d-flex flex-column align-items-center">
                             <img src="assets/images/user-2.png" class="card-img-top mb-5" alt="Picture of a client">
-                            <p class="client-message">Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</p>
-                            <span><i class="fas fa-star me-2"></i><i class="fas fa-star me-2"></i><i
+                            <p class="client-message">I was in the Bike today and I had a great experience, both
+                                with the mechanic and the salesmen who helped me</p>
+                            <span class="color-burnt-sienna"><i class="fas fa-star me-2"></i><i
                                     class="fas fa-star me-2"></i><i class="fas fa-star me-2"></i><i
-                                    class="far fa-star"></i></span>
-                            <p class="client-name">Regina Miles</p>
-                            <p class="client-designation">Banker</p>
+                                    class="fas fa-star me-2"></i><i class="far fa-star"></i></span>
+                            <p class="client-name">Anne</p>
+                            <p class="client-designation mb-0">Web Developer</p>
                         </div>
                     </div>
 
@@ -138,15 +138,13 @@
                         <div class="card h-100 d-flex flex-column align-items-center">
                             <img src="assets/images/user-3.jpg" class="rounded-circle card-img-top mb-5"
                                 alt="Picture of a client">
-                            <p class="client-message">Slate helps you see how
-                                many more days you need
-                                to work to reach your financial
-                                goal for the month and year.</p>
-                            <span><i class="fas fa-star me-2"></i><i class="fas fa-star me-2"></i><i
+                            <p class="client-message">I was in the Bike today and I had a great experience, both
+                                with the mechanic and the salesmen who helped me.</p>
+                            <span class="color-burnt-sienna"><i class="fas fa-star me-2"></i><i
                                     class="fas fa-star me-2"></i><i class="fas fa-star me-2"></i><i
-                                    class="far fa-star"></i></span>
-                            <p class="client-name">Regina Miles</p>
-                            <p class="client-designation">Banker</p>
+                                    class="fas fa-star me-2"></i><i class="far fa-star"></i></span>
+                            <p class="client-name">Suzanne</p>
+                            <p class="client-designation mb-0">Merchandiser</p>
                         </div>
                     </div>
                 </div>
@@ -157,13 +155,15 @@
         <!-- question section starts -->
         <section class="question-section">
             <div class="d-flex justify-content-center">
-                <h1 class="section-title question-title">Frequently Asked <span>Questions</span></h1>
+                <h1 class="section-title" id="question-title">Frequently <span>Asked <span
+                            class="color-burnt-sienna">Questions</span></span></h1>
             </div>
-            <div class="container mt-5">
+            <div class="container mt-4">
                 <div class="row align-items-center">
-                    <div class="col-12 col-lg-5">
+                    <div class="col-12 col-lg-4">
                         <img class="img-fluid" src="assets/images/faq.png" alt="">
                     </div>
+                    <div class="col-12 col-lg-1"></div>
                     <div class="col-12 col-lg-7 mt-5 mt-lg-0">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
@@ -251,15 +251,16 @@
         </section>
         <!-- question section ends  -->
 
+        <!-- ===============BONUS PARTS STARTS============== -->
         <!-- category starts -->
         <section class="category-section">
             <div class="d-flex justify-content-center">
-                <h1 class="section-title">Our <span>Categories</span></h1>
+                <h1 class="section-title">Our <span class="color-burnt-sienna">Categories</span></h1>
             </div>
-            <div class="container ">
+            <div class="container mt-4">
                 <!-- categories -->
-                <div class="row categories mt-5 g-4">
-                    <div class="col-12 col-md-4">
+                <div class="row categories g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card p-3 h-100">
                             <img class="" src="assets/images/cars.jpeg" alt="Cars">
                             <div class="card-body">
@@ -267,13 +268,13 @@
                             </div>
 
                             <div class="see-more">
-                                <a href="https://www.honda.co.uk/engineroom/cars/" target="_blank"
-                                    class="btn btn-purchase"> More <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <a href="https://www.honda.co.uk/engineroom/cars/" target="_blank" class="btn my-btn">
+                                    More <i class="far fa-arrow-alt-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card p-3 h-100">
                             <img class="" src="assets/images/bikes.jpeg" alt="Bikes">
                             <div class="card-body">
@@ -281,13 +282,13 @@
                             </div>
 
                             <div class="see-more">
-                                <a href="https://www.honda.co.uk/engineroom/bikes/" target="_blank"
-                                    class="btn btn-purchase"> More <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <a href="https://www.honda.co.uk/engineroom/bikes/" target="_blank" class="btn my-btn">
+                                    More <i class="far fa-arrow-alt-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card p-3 h-100">
                             <img class="" src="assets/images/power.jpeg" alt="Power Products">
                             <div class="card-body">
@@ -295,13 +296,13 @@
                             </div>
 
                             <div class="see-more">
-                                <a href="https://www.honda.co.uk/engineroom/power/" target="_blank"
-                                    class="btn btn-purchase"> More <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <a href="https://www.honda.co.uk/engineroom/power/" target="_blank" class="btn my-btn">
+                                    More <i class="far fa-arrow-alt-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card p-3 h-100">
                             <img class="" src="assets/images/racing.jpeg" alt="Racing">
                             <div class="card-body">
@@ -309,13 +310,13 @@
                             </div>
 
                             <div class="see-more">
-                                <a href="https://www.honda.co.uk/engineroom/racing/" target="_blank"
-                                    class="btn btn-purchase"> More <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <a href="https://www.honda.co.uk/engineroom/racing/" target="_blank" class="btn my-btn">
+                                    More <i class="far fa-arrow-alt-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card p-3 h-100">
                             <img class="" src="assets/images/events.jpeg" alt="Events">
                             <div class="card-body">
@@ -323,13 +324,13 @@
                             </div>
 
                             <div class="see-more">
-                                <a href="https://www.honda.co.uk/engineroom/events/" target="_blank"
-                                    class="btn btn-purchase"> More <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <a href="https://www.honda.co.uk/engineroom/events/" target="_blank" class="btn my-btn">
+                                    More <i class="far fa-arrow-alt-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="card p-3 h-100">
                             <img class="" src="assets/images/world.jpeg" alt="World">
                             <div class="card-body">
@@ -337,8 +338,8 @@
                             </div>
 
                             <div class="see-more">
-                                <a href="https://www.honda.co.uk/engineroom/world/" target="_blank"
-                                    class="btn btn-purchase"> More <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <a href="https://www.honda.co.uk/engineroom/world/" target="_blank" class="btn my-btn">
+                                    More <i class="far fa-arrow-alt-circle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -352,23 +353,23 @@
         <!-- history section starts  -->
         <section class="history-section">
             <div class="d-flex justify-content-center">
-                <h1 class="section-title">History Of <span>Honda</span></h1>
+                <h1 class="section-title">History Of <span class="color-burnt-sienna">Honda</span></h1>
             </div>
-            <div class="container mt-5 border rounded-3 p-3">
+            <div class="container mt-4 border rounded-3 p-3">
                 <div class="row align-items-center">
                     <div class="col-12 col-lg-5 order-2 order-lg-1  mt-5 mt-lg-0">
                         <p>
-                            The history of Honda's motorcycle business began in 1949.Honda's first full-fledged
+                            The history of Honda's motorcycle business began in 1949. Honda's first full-fledged
                             motorcycle, the beautiful maroon colored Dream D-type debuted with an air-cooled 98cc
                             2-cycle single-cylinder engine. It was produced at the Noguchi plant in Hamamtsu-city,
-                            Shizuoka.
+                            Shizuoka...
                         </p>
                         <a href="https://global.honda/products/motorcycles/history.html" target="_blank"><button
-                                type="button" class="btn btn-purchase">More&nbsp;<i
+                                type="button" class="btn my-btn">More&nbsp;<i
                                     class="far fa-arrow-alt-circle-right"></i></button></a>
                     </div>
                     <div class="col-12 col-lg-7 order-1 order-lg-2">
-                        <img class="img-fluid rounded-3" src="assets/images/1949.jpg"
+                        <img class="w-100 rounded-3" src="assets/images/1949.jpg"
                             alt="1949 First mass production of motorcycle begins">
                     </div>
                 </div>
@@ -376,6 +377,7 @@
             </div>
         </section>
         <!-- history section ends  -->
+        <!-- ===============BONUS PARTS ENDS============== -->
 
     </main>
     <!-- bootstrap scripts -->
